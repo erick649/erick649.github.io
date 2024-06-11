@@ -10,6 +10,7 @@ body {
     margin-top: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -19,7 +20,7 @@ body {
 /*    background-color: red;*/
     max-width: 500px;
     height: 350px;
-    margin: auto;
+    margin-right: 300px;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -83,4 +84,3 @@ img {
 img:hover {
     filter: drop-shadow(0 0 40px red);
 }
-
