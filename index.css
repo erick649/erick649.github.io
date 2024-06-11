@@ -1,7 +1,86 @@
 body {
+    margin: 0;
+    padding: 0;
+    font-family: 'arial';
     background-color: black;
+    box-sizing: border-box;
 }
 
-h1 {
-    color: grey;
+.contenedor1 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
 }
+
+
+/*inicio de presentación*/
+
+#inicio .contenido .presentacion {
+/*    background-color: red;*/
+    max-width: 500px;
+    height: 350px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Añadir padding para un mejor ajuste del contenido */
+    box-sizing: border-box; /* Incluir padding y borde en el ancho y alto total */
+}
+
+#inicio .contenido .presentacion .bienvenida {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#inicio .contenido .presentacion h2 {
+    font-size: 35px; /* Reducir el tamaño para un mejor ajuste */
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion h2 span {
+    font-size: 25px;
+    color: #ff5080;
+}
+
+#inicio .contenido .presentacion .descripcion {
+    max-width: 100%; /* Ajustar al 100% del contenedor */
+    margin: 0 auto; /* Centrar el texto */
+    font-size: 18px;
+    text-align: center;
+    overflow-wrap: break-word; /* Permitir el ajuste de palabras largas */
+    word-wrap: break-word; /* Permitir el ajuste de palabras largas */
+}
+
+#inicio .contenido .presentacion a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+/*fin de presentación*/
+
+
+
+
+img {
+    filter: drop-shadow(0 0 10px blue);
+    transition: all 0.30s;
+    border-radius: 100%;
+}
+
+img:hover {
+    filter: drop-shadow(0 0 40px red);
+}
+
